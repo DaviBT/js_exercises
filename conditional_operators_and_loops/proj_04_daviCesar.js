@@ -1,20 +1,20 @@
 /* ------------------------------- */
 // Tarefa 21
-// function determinarEstacao (mes){
-//     if (mes < 3 || mes === 12){
-//         console.log("Verão");
-//     } else if (mes <6){
-//         console.log("Outono");
-//     } else if(mes < 9){
-//         console.log("Inverno");
-//     } else {
-//         console.log("Primavera");
-//     }
-// }
-// determinarEstacao(12); // imprime: Verão
-// determinarEstacao(4); // imprime: Outono
-// determinarEstacao(7); // imprime: Inverno
-// determinarEstacao(10); // imprime: Primavera
+function determinarEstacao (mes){
+    if (mes < 3 || mes === 12){
+        console.log("Verão");
+    } else if (mes <6){
+        console.log("Outono");
+    } else if(mes < 9){
+        console.log("Inverno");
+    } else {
+        console.log("Primavera");
+    }
+}
+determinarEstacao(12); // imprime: Verão
+determinarEstacao(4); // imprime: Outono
+determinarEstacao(7); // imprime: Inverno
+determinarEstacao(10); // imprime: Primavera
 
 /*Resultado:
 Verão
@@ -28,29 +28,29 @@ Primavera
 
 /* ------------------------------- */
 // Tarefa 22
-// function determinarDiaNoMes(mes){
-//     switch(mes){
-//         case 2:
-//             console.log("28 ou 19 dias");
-//             break;
-//         case 4:
-//         case 6:
-//         case 9:
-//         case 11:
-//             console.log("30 dias");
-//             break;
-//         default:
-//             console.log("31 dias");
-//     }
-// }
+function determinarDiaNoMes(mes){
+    switch(mes){
+        case 2:
+            console.log("28 ou 19 dias");
+            break;
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            console.log("30 dias");
+            break;
+        default:
+            console.log("31 dias");
+    }
+}
 
-// determinarDiaNoMes(2) // imprime: 28 ou 29 dias
-// determinarDiaNoMes(4) // imprime: imprime 30 dias
-// determinarDiaNoMes(31) // imprime: 31 dias
+determinarDiaNoMes(2) // imprime: 28 ou 29 dias
+determinarDiaNoMes(4) // imprime: imprime 30 dias
+determinarDiaNoMes(31) // imprime: 31 dias
 
 /*Resultado:
 28 ou 29 dias
-imprime 30 dias
+30 dias
 31 dias
 
 */
@@ -59,22 +59,22 @@ imprime 30 dias
 
 /* ------------------------------- */
 // Tarefa 23
-// function verificaSemaforo(cor) {
-//     if(cor === "verde"){
-//         console.log("Siga em frente.");
-//     } else if(cor === "amarelo"){
-//         console.log("Atenção, diminua a velocidade.");
-//     } else if ("vermelho") {
-//         console.log("Pare seu veículo.");
-//     } else {
-//         console.log("Envie uma cor válida.");
-//     }
-// }
+function verificaSemaforo(cor) {
+    if(cor === "verde"){
+        console.log("Siga em frente.");
+    } else if(cor === "amarelo"){
+        console.log("Atenção, diminua a velocidade.");
+    } else if ("vermelho") {
+        console.log("Pare seu veículo.");
+    } else {
+        console.log("Envie uma cor válida.");
+    }
+}
 
-// verificaSemaforo("verde"); // imprime: siga em frente
-// verificaSemaforo("amarelo"); // imprime: atenção, diminua a velocidade
-// verificaSemaforo("vermelho"); // imprime: pare seu veículo
-// verificaSemaforo("azul"); // imprime: envie uma cor válida
+verificaSemaforo("verde"); // imprime: siga em frente
+verificaSemaforo("amarelo"); // imprime: atenção, diminua a velocidade
+verificaSemaforo("vermelho"); // imprime: pare seu veículo
+verificaSemaforo("azul"); // imprime: envie uma cor válida
 
 /*Resultado:
 siga em frente
@@ -88,9 +88,9 @@ envie uma cor válida
 
 /* ------------------------------- */
 // Tarefa 24
-// for (let i = 1; i <= 10; i++){
-//     console.log(i);
-// }
+for (let i = 1; i <= 10; i++){
+    console.log(i);
+}
 
 
 /*Resultado:
@@ -113,11 +113,11 @@ envie uma cor válida
 
 /* ------------------------------- */
 // Tarefa 25
-// let i = 10;
-// while (i >= 1){
-//     console.log(i);
-//     i--;
-// }
+let i = 10;
+while (i >= 1){
+    console.log(i);
+    i--;
+}
 
 
 /*Resultado:
@@ -139,13 +139,13 @@ envie uma cor válida
 
 /* ------------------------------- */
 // Tarefa 26
-// let i = 1;
-// do {
-//     if (i % 2 != 0) {
-//         console.log(i);
-//     }
-//     i++;
-// } while (i <= 20);
+let i = 1;
+do {
+    if (i % 2 != 0) {
+        console.log(i);
+    }
+    i++;
+} while (i <= 20);
 
 
 /*Resultado:
@@ -165,9 +165,9 @@ envie uma cor válida
 
 /* ------------------------------- */
 // Tarefa 27
-// for (let i = 1; i <= 10; i++){
-//     console.log("5 X " + i + " = " + 5 * i);
-// }
+for (let i = 1; i <= 10; i++){
+    console.log("5 X " + i + " = " + 5 * i);
+}
 
 /*Resultado:
 5 x 1 = 5
@@ -187,13 +187,13 @@ envie uma cor válida
 
 /* ------------------------------- */
 // Tarefa 28
-// let i = 1;
-// let soma = 0;
-// while (i <= 100){
-//     soma += 1;
-//     i++;
-// }
-// console.log(soma)
+let i = 1;
+let soma = 0;
+while (i <= 100){
+    soma += 1;
+    i++;
+}
+console.log(soma)
 
 
 /*Resultado:
@@ -207,13 +207,13 @@ envie uma cor válida
 
 /* ------------------------------- */
 // Tarefa 29
-// let i = 1;
-// do{
-//     if (i % 2 == 0) {
-//         console.log(i);
-//     }
-//     i++;
-// } while (i <= 100);
+let i = 1;
+do{
+    if (i % 2 == 0) {
+        console.log(i);
+    }
+    i++;
+} while (i <= 100);
 
 
 /*Resultado:
